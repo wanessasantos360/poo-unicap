@@ -11,8 +11,7 @@ public class Livro {
 
     @Override
     public String toString() {
-        return "Livro: " + titulo +
-                "\tAno de Publicação: " + anoPublicacao +
-                "\t" + autor.toString();
+        return "Livro \t\t | \t Ano de Publicação \t | \t Autor" +
+                "\n"+ titulo + "\t\t | \t" + anoPublicacao + "\t\t | \t" + autor.toString() + "\n";
     }
 }
